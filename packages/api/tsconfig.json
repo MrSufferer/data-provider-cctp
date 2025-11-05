@@ -1,0 +1,16 @@
+{
+	"extends": "../../tsconfig.base.json",
+	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"outDir": "dist",
+		"composite": true,
+		"paths": {
+			"@MrSufferer/cctp": ["../cctp/src/index.ts"]
+		}
+	},
+	"references": [
+		{ "path": "../cctp" }
+	]
+}
